@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio - Matthieu Lambert</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light rounded-pill mx-5 mt-3">
+    <div class="container-fluid d-flex justify-content-between">
+      <div class="d-flex">
+        <a class="navbar-brand me-3" href="#mes-projets">Mes projets</a>
+        <a class="navbar-brand" href="#mes-experiences">Mes expériences professionnelles</a>
+      </div>
+      <div class="d-flex">
+        <a class="navbar-brand me-3" href="https://www.linkedin.com/in/matthieu-l-036446148/">Mon Linkedin</a>
+        <a class="navbar-brand" href="MatthieuLambert-CV (3) (2).pdf">Mon CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="Intro">
+
+    <div class="d-flex flex-column align-items-center text-center pt-8 pt-md-10 pt-lg-12" id="intro-content">
+      <h2 class="text-secondary mt-5 mt-md-6 mt-lg-8 fs-3 fw-bold">Bonjour, je suis Matthieu ! 👋</h2>
+      <h1 class="text-secondary mt-3 mt-md-6 fs-2 mt-lg-8 fw-bold">Portfolio</h1>
+      <img src="photo-ML.jpg" alt="Photo de Matthieu"
+        class="rounded-circle mt-4 shadow-sm border border-secondary border-3 floating-glow coin-flip"
+        style="width: 200px; height: 200px; object-fit: cover; transition: transform 0.3s ease;">
+    </div>
+
+    <div class="word-cloud">
+      <span class="word">SAP</span>
+      <span class="word">Python</span>
+      <span class="word">Demand Planning</span>
+      <span class="word">SQL</span>
+      <span class="word">Transport</span>
+      <span class="word">Forecasting</span>
+      <span class="word">Data Analysis</span>
+      <span class="word">Power BI</span>
+      <span class="word">Automation</span>
+      <span class="word">Inventory</span>
+      <span class="word">VBA</span>
+      <span class="word">Forecast</span>
+      <span class="word">S&OP</span>
+      <span class="word">Distribution</span>
+      <span class="word">Forecast</span>
+
+    </div>
+
+
+  </div>
+
+  <div class="card bg-light shadow-mg  mx-5" justify-content-center mx-5">
+    <h2 class="card-title start-0 " id="A-propos">A propos de moi</h2>
+    <p class="text-justify">Durant 3 ans d’expérience en Supply Chain, j’ai eu l’opportunité de travailler chez L’Oréal
+      en tant que Demand Planner, chez Chanel en tant que Chef de projet transport et chez le Groupe CAT en tant que
+      distribution planner. Tout au long de ces expériences, j’ai constamment cherché à améliorer les processus de
+      Reporting en développant mes propres outils, ce qui m’a progressivement conduit à découvrir une véritable passion
+      pour la programmation.
+      Je réalise beaucoup de projets différents durant mon temps libre, centrés sur l'analyse de données. Par ailleurs,
+      je parle plusieurs langues, et j’aime m’ouvrir à d’autres cultures à travers les voyages, les rencontres et les
+      échanges. Je consacre également une partie de mon temps libre au sport, comme la natation et l'escalade. </p>
+  </div>
+
+  <section id="mes-projets">
+    <div class="card bg-light shadow-mg mt-5  mx-5">
+      <h2 class="card-title start-0 " id="A-propos">Mes projets</h2>
+      <div class="container">
+        <div class="slider owl-carousel  mt-3">
+          <div class="card">
+            <div class="img">
+              <img src="tesla.png" alt="">
+            </div>
+            <div class="content">
+              <div class="title">Prédiction des prix de l'action Tesla</div>
+              <div class="sub-title">Regression linéare, Python</div>
+              <p>Ce programme utilise la regression linéaire afin de prédire le prix de l'action à long terme. Le modèle
+                a
+                démontré une bonne précision.</p>
+              <div class="btn">
+                <a class="button" href="Tesla.pdf">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="wordcloud.png" alt="">
+            </div>
+            <div class="content">
+              <div class="title">Analyse de commentaires youtube</div>
+              <div class="sub-title">Web scraping, wordcloud </div>
+              <p> Ce programme analyse des commentaires youtubes via Python pour étudier quel est le ressenti global de
+                l'audience.</p>
+              <div class="btn">
+                <a class="button" href="youtube-comments.pdf">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="program.png" alt="">
+            </div>
+            <div class="content">
+              <div class="title">Analyse de la fréquence des mots dans un texte</div>
+              <div class="sub-title">Langues</div>
+              <p>Ce programme demande à l'utilisateur un lien internet et analyse la fréquence des mots des paragraphes
+                du
+                site.</p>
+              <div class="btn">
+                <a class="button" href="wordfrequency.pdf">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="Latent.png" alt="">
+            </div>
+            <div class="content">
+              <div class="title">Analyse de commentaires Instagram</div>
+              <div class="sub-title">Latent Dirichlet Allocation, Python</div>
+              <p>La Latent Direchlet Allocation est utilisée pour analyser le ressenti global des utilisateurs.</p>
+              <div class="btn">
+                <a class="button" href="latentDirichlet.pdf">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="HIV.png" alt="">
+            </div>
+            <div class="content">
+              <div class="title">Analyse Supply CHAIN HIV</div>
+              <div class="sub-title">Data Analysis, Python</div>
+              <p>Analyse d'une base de données sur la distribution de traitements contre le SIDA.</p>
+              <div class="btn">
+                <a class="button" href="HIV-sida.pdf">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section id="mes-experiences">
+    <div class="card bg-light shadow-mg mt-5 justify-content-center mx-5">
+      <h2 class="card-title start-0 " id="Mes-exp">Mes expériences</h2>
+      <br>
+      <div class="title fw-bold" style="height: 10px;">DEMAND PLANNER - L'OREAL</div>
+      <br>
+      <p class="experiences">
+        Périmètre : responsable des marques Designer Brands (Ralph Lauren, Azzarro, Cacharel, Valentino, Mugler, Victor
+        & Rolf..)
+        <br>
+        <br>
+        Gestion du cycle S&OP :
+        <br>
+        - Coopération avec les différentes équipes comprenant les ventes, le marketing, la finance pour recueillir des
+        informations sur le marché et contribuer à la prévision de la demande. <br>
+        - Organisation de réunions régulières afin d'examiner la demande pour ajuster les prévisions en fonction des
+        conditions du marché, de son évolution et des priorités commerciales. <br>
+        - Utilisation de modèles avancés à travers le logiciel Futurmaster pour générer des prévisions de demande sur la
+        Baseline précises, en tenant compte de la saisonnalité, des promotions et des tendances du marché.
+        - Soutien logistique opérationnel sur les risques de stock et de distribution (SAP) <br>
+        - Soutien au marketing dans la conception du forecast des produits PLV. <br>
+        - Support de l'équipe dans la programmation de macros en VBA, conception de PowerBi, améliorations des fichiers
+        Excel
+      </p>
+      <br>
+      <div class="title fw-bold" style="height: 10px;">CHEF DE PROJET TRANSPORT EXPRESS - CHANEL</div>
+      <br>
+      <p class="experiences">
+        Périmètre : Tout le flux Europe Express
+        <br>
+        <br>
+        Responsable de la transition entre deux prestataires logistiques : <br>
+        - Mise en place de KPIs et d’un plan d’amélioration continue avec le nouveau prestataire. <br>
+        - Résolution des anomalies logistiques (colis perdus, bloqués en douane etc.). <br>
+        - Accompagnement d’une dizaine d’équipes internes (formation sur le TMS, explication des processus de livraison,
+        organisation de réunions, formalisation des processus etc.). <br>
+        <br>
+        Préparation, suivi, validation et pilotage d’un appel d’offres sur les flux de matières premières (flux
+        France) en coopération avec une équipe de consultants :<br>
+        - Formalisation du projet (Gantt, RACI etc..).<br>
+        - Recueil des besoins et contraintes auprès de nos différentes équipes et entrepôts.<br>
+        - Formalisation de l'appel d'offres et envoi aux différents prestataires.<br>
+        - Etude des offres et choix du prestataire.<br>
+        - Suivi de la mise en place du prestataire.<br>
+        <br>
+        Soutien à l'équipe dans la conception de fichiers Excels et de reportings.
+      </p>
+      <br>
+      <div class="title fw-bold" style="height: 10px;">CHARGE DE PLANIFICATION - GROUPE CAT</div>
+      <br>
+      <p class="experiences">
+        Périmètre : 3 centres français et les flux Ile-de-France-> Sud + France -> Algerie
+        <br>
+        <br>
+        - Gestion des prévisions clients, évaluation des besoins de transport, préparation des véhicules, et calcul des
+        charges prévisionnelles sur une partie du flux France et sur le flux France-Algérie. <br>
+        - Pilotage des saturations/occupations centres (3 centres) et mise en place d'actions (délestage, déviation,
+        location de surface annexe...). <br>
+        - Pilotage et suivi des opérations de livraison pour les lancements de nouveaux véhicules. <br>
+        - Support sur les processus de l’équipe. Programmation de macro en VBA pour optimiser le temps d’éxécution. 4 ou
+        5
+        processus automatisés.
+      </p>
+      <br>
+    </div>
+  </section>
+ <script>
+
+</script>
+  <script src="main.js"></script>
+
+  <script>
+    $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2000, //2000ms = 2s;
+      autoplayHoverPause: true,
+    });
+  </script>
+</body>
+
+</html>
